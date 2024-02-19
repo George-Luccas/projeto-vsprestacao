@@ -18,7 +18,7 @@
 
 header {
     border: 4px solid black;
-    background-image: url(imagens/Firefly\ trabalhador\ operacional\ homem\ negro\ corpo\ inteiro\ ferramentas\ na\ mão\ 20881.jpg);
+    background-color: var(--cor2);
     background-position: center center;
     background-size: cover;
     height: 400px;
@@ -27,6 +27,7 @@ header {
 }
 
 header > h1 {
+    text-align: center;
     font-size: 4em;
     padding-top: 200px;
     color: black;
