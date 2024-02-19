@@ -1,0 +1,96 @@
+@charset "UTF-9";
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+
+:root{
+    --cor1:#2EE0FF;
+    --cor2:#4AC0D5;
+    --cor3:#579EAA;
+    --cor4:#283133;
+    
+}
+
+*{
+    margin: 0px;
+}
+    
+
+header {
+    border: 4px solid black;
+    background-image: url(imagens/Firefly\ trabalhador\ operacional\ homem\ negro\ corpo\ inteiro\ ferramentas\ na\ mão\ 20881.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+
+}
+
+header > h1 {
+    font-size: 4em;
+    padding-top: 200px;
+    color: black;
+    max-width: 1000px;
+    min-width: 260;
+}
+
+nav{
+    height: 30px;
+    font-size:1.2em;
+    background-color: rgba(255, 255, 255, 0.322);
+   
+    
+}
+
+nav > a {
+    color: var(--cor3);
+    border: 5px solid rgba(255, 255, 255, 0.433);
+    padding: 2px;
+    text-decoration: none;
+ }
+ nav >a:hover { 
+    text-decoration:underline;
+    background-color: rgba(255, 255, 255, 0.373);
+    border-radius: 5px;
+    color: var(--cor3);
+    
+ }
+
+body{
+    
+    background-image:url(imagens/fundo.jpg);
+    background-size: cover;
+}
+
+main{
+    padding:25px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.653);
+    max-width: 4500px;
+    border-radius: 10px;
+
+}
+
+main > h2 {
+
+padding: 0px 10px 50px 10px;
+
+}
+
+#missao{
+    
+}
+
+#missao > h2{
+    padding: 10px 0px;
+
+}
+
+#visao > h2 {
+    padding: 10px 0px;
+}
+
+#valores > h2{
+    padding: 10px 0px;
+
+}
