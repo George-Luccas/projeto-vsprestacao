@@ -11,7 +11,7 @@
     
 }
 
-*{
+*{ 
     margin: 0px;
 }
     
@@ -28,7 +28,7 @@ header {
 }
 
 header > h1 {
-        text-align: center;
+    text-align: center;
     font-size: 4em;
     padding-top: 200px;
     color: black;
@@ -47,20 +47,20 @@ nav{
 nav > a {
     font-size:larger;
     color: #000000;
-    border: 2px solid rgba(255, 255, 255, 0.433);
+    border: 1px solid rgba(255, 255, 255, 0.433);
     padding: 1px;
     text-decoration: none;
  }
  nav >a:hover { 
     text-decoration:underline;
-    background-color: rgba(255, 255, 255, 0.373);
+    background-color:#4ac0d565;
     border-radius: 5px;
-    color: var(--cor3);
+    color: white;
     
  }
 
 body{
-    
+    line-height: 2em;
     background-image:url(imagens/fundo.jpg);
     background-size: cover;
 }
@@ -77,24 +77,61 @@ main{
 }
 
 main > h2 {
+    text-align: center;
+    border: 1px solid white;
     text-decoration: underline;
-    padding: 0px 10px 50px 10px;
+    margin: 0px 10px 50px 10px;
 
 }
 
-#missao{
-    
+
+.imagem{
+    background-attachment: fixed;
+    box-shadow:inset 4px -2px 20px 0px black;
+    border: 2px solid yellow;
+    background-size: contain;
+    background-image: url(imagens/trabalhador1.jpg);
+    display: i;
+    max-width: 870vh;
+    min-width: 200px;
+    height: 200px;
+    margin: auto;
+   
 }
 
+#missao{ 
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.404);
+}
 
-
-#missao > h2{
+#missao h2 ,p {
+    margin: 10px ;
     padding: 10px 0px;
 
 }
 
-#visao > h2 {
+#visao{
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+#visao h2 ,p {
+    margin-top: 50px;
+    margin-bottom: 30px;
     padding: 10px 0px;
+}
+
+#valores{
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.404);
 }
 
 #valores > h2{
@@ -107,4 +144,11 @@ footer{
     background-color: #000000;
     border: 3px solid black;
     color: white;
+}
+
+footer > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
