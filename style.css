@@ -84,19 +84,33 @@ main > h2 {
 
 }
 
-
 .imagem{
     background-attachment: fixed;
     box-shadow:inset 4px -2px 20px 0px black;
     border: 2px solid yellow;
     background-size: contain;
     background-image: url(imagens/trabalhador1.jpg);
-    display: i;
     max-width: 870vh;
     min-width: 200px;
     height: 200px;
     margin: auto;
    
+}
+
+.container{
+
+}
+
+.imagem2{
+
+    margin-left: auto;
+    background-image: url(imagens/trabalhador-p.jpg);
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(255, 255, 0, 0.575);
+    box-shadow: -3px 2px 8px 0px;;
+
+
 }
 
 #missao{ 
@@ -127,6 +141,7 @@ main > h2 {
 }
 
 #valores{
+   
     padding: 15px;
     margin-top: 30px;
     border-radius: 10px;
@@ -135,8 +150,14 @@ main > h2 {
 }
 
 #valores > h2{
+    margin-bottom: 5px;
     padding: 10px 0px;
+    
+}
 
+#valores > ul {
+
+    display: inline;
 }
 
 footer{
